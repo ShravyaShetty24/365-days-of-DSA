@@ -1,0 +1,12 @@
+arr = [-2, 5, -1, 7, -4, 3]
+
+positive = negative = 0
+
+for i in arr:
+    if i >= 0:
+        positive += 1
+    else:
+        negative += 1
+
+print("Positive =", positive)
+print("Negative =", negative)
