@@ -1,0 +1,7 @@
+def missing_no(a,n):
+    total_sum=n*(n+1)//2
+    s2=sum(a)
+    return total_sum-s2
+a=[1,2,4,5]
+n=5
+print(missing_no(a,n))
