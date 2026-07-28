@@ -1,0 +1,11 @@
+def missing_no(a,n):
+    xor1=0
+    xor2=0
+    for i in range(n-1):
+        xor1=xor1^(i+1)
+        xor2=xor2^a[i]
+    xor1=xor1^n
+    return xor1^xor2
+a=[1,2,4,5]
+n=5
+print(missing_no(a,n))
